@@ -6,4 +6,9 @@ public class HelloWorld {
 
             System.out.println("Hello world");
     }
+
+    public void printHW(String name) {
+
+        System.out.println("Hello world from "+ name);
+    }
 }
