@@ -3,19 +3,16 @@ package lesson2;
 
 public class WorkWithString {
 
-    public static String eachNth(String curent, int n)
-    {
-        if(!curent.isEmpty())
-        {
+    public static String eachNth(String current, int n){
+        if(!current.isEmpty()){
             String returnString = "";
-            char [] arrCurent = curent.toCharArray();
-            for(int i=0; i<curent.length(); i=i+n){
+            char [] arrCurent = current.toCharArray();
+            for(int i=0; i<current.length(); i=i+n){
                 returnString += arrCurent[i];
             }
             return returnString;
         }
-        else
-        {
+        else{
             return null;
         }
     }
