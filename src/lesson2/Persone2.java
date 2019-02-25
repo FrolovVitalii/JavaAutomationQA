@@ -5,5 +5,12 @@ public class Persone2 {
 
         Person person = new Person();
         person.doSomething();
+
+        System.out.println();
+
+        System.out.println(WorkWithString.eachNth("Mirace",2));
+        System.out.println(WorkWithString.eachNth("abcdefg",2));
+        System.out.println(WorkWithString.eachNth("abcdefg",3));
+
     }
 }
