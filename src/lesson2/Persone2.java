@@ -8,7 +8,12 @@ public class Persone2 {
 
         System.out.println();
 
-        System.out.println(WorkWithString.eachNth("Mirace",2));
+        WorkWithString test = new WorkWithString();
+        String testString = test.eachNthModern("Miracle",2);
+
+        System.out.println(testString);
+        System.out.println("-------------------------------------------");
+        System.out.println(WorkWithString.eachNth("Miracle",2));
         System.out.println(WorkWithString.eachNth("abcdefg",2));
         System.out.println(WorkWithString.eachNth("abcdefg",3));
 
