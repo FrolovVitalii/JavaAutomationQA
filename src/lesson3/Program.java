@@ -7,7 +7,7 @@ public abstract class Program{
     public static void main(String[] args) {
 
 
-        truck = new Truck("BMW",2001,"red");
+        truck = new Truck("BMW",2001,"red", new Engin(3);
 
     }
 
