@@ -1,6 +1,8 @@
-package lesson2;
+package lesson3;
 
-public abstract class Truck extends Car implements Climateble{
+import lesson3.contract.Climateble;
+
+public class Truck extends Car implements Climateble {
 
     public Truck (String manufacture, int year, String color){
         super(manufacture,year,color);
@@ -9,6 +11,6 @@ public abstract class Truck extends Car implements Climateble{
 
     @Override
     protected String getName(){
-
+        return "Hello world";
     }
 }
