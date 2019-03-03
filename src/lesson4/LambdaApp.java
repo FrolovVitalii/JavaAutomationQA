@@ -4,12 +4,12 @@ public class LambdaApp {
 
     public static void main(String[] args) {
 
-
+ /*
         Expression exp1 = Expressions::isEven;
         Expression exp = Expressions::isNegative;
         Expression exp2 = (int i) -> i >= 0;
 
-        System.out.print(sumOf(),exp1);
+       System.out.print(sumOf(),exp1);
 
         private static int sumOf(int[] arr, Expression expr)
         {
@@ -21,5 +21,7 @@ public class LambdaApp {
             }
             return result;
         }
+
+        */
     }
 }
