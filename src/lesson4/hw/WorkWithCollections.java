@@ -35,13 +35,28 @@ public class WorkWithCollections {
     }
 
     public ArrayList<String> sortCollection(ArrayList<String> list){
-        list.sort(Comparator.naturalOrder());
+        try {
+            list.sort(Comparator.naturalOrder());
+            }
+        catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
         return list;
     }
 
     public void printToConsole(ArrayList<String> list){
-        for(String str : list){
-            System.out.println(str);
+        try {
+            if (!list.isEmpty()) {
+                if (list != null) {
+                    for (String str : list) {
+                        System.out.println(str);
+                    }
+                }
+            }
         }
+        catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
+
     }
 }
