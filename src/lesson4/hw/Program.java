@@ -23,8 +23,7 @@ public class Program {
         list.add("and");
         list.add("Good");
         list.add("luck");
-        list = null;
-
+        
         System.out.println("Step1-------------------Create and print");
         work.printToConsole(list);
         System.out.println("Step2-------------------Remove item 'Hello' and print");
